@@ -2,8 +2,10 @@ import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export function Navbar() {
+
 	// me-auto === margin-end auto (to put margin on the right of navbar and fill all the space on the right (and push everything to right))
 	// we put relative position on Button in order to absolute position red circle (num of purchased items)
+	
 	return (
 		<NavbarBs sticky='top' className="bg-white shadow-sm mb-3">
 			<Container>
